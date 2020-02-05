@@ -1,0 +1,349 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body .wrapper {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+body main {
+  max-width: 960px;
+  height: 686px;
+}
+
+body main .content {
+  width: 100%;
+  height: 343px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#364a57), to(#374357));
+  background: linear-gradient(180deg, #364a57, #374357);
+}
+
+body main .content h1 {
+  font-size: 48px;
+  font-family: "Bebas Neue";
+  color: white;
+  font-weight: bold;
+  line-height: 0.583;
+  text-align: center;
+  padding-top: 68px;
+  text-transform: uppercase;
+}
+
+body main .content-container {
+  padding-top: 75px;
+}
+
+body main .content-container-play {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .content-container-play .album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 2;
+}
+
+body main .content-container-play .album .pic-Credo {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-image: url(../icon/Rounded_Rectangle_2_copy.png);
+  margin-right: 9px;
+}
+
+body main .content-container-play .album .pic-Credo::after {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 20px;
+  background-image: url(../icon/Shape_1.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 35%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+body main .content-container-play .album .pic-Credo::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+body main .content-container-play .album h3 {
+  font-size: 24px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .content-container-play .album h4 {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: #aaaaaa;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .content-container-play .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .content-container-play .star img {
+  width: 20px;
+  height: 20px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+body main .content-container-play .star p {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: right;
+}
+
+body main .content-container-line {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: #556270;
+  margin-top: 5px;
+}
+
+body main .content-container-line::after {
+  position: absolute;
+  content: "";
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 108, 0, 0.30196)), to(rgba(255, 108, 0, 0)));
+  background-image: linear-gradient(-90deg, rgba(255, 108, 0, 0.30196) 0%, rgba(255, 108, 0, 0) 100%);
+  left: 0;
+  top: -64px;
+  width: 50%;
+  height: 70px;
+  z-index: 1;
+}
+
+body main .content-container-line::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: #ff6c00;
+}
+
+body main .content-container-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+body main .content-container-icon .album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .content-container-icon .album .pic-DanceMonkey {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-image: url(../icon/Layer_3.png);
+  margin-right: 9px;
+}
+
+body main .content-container-icon .album h3 {
+  font-size: 24px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .content-container-icon .album h4 {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: #aaaaaa;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .content-container-icon .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .content-container-icon .star img {
+  width: 20px;
+  height: 20px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+body main .content-container-icon .star p {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: right;
+}
+
+body main .continuation {
+  width: 100%;
+  height: 343px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#3a3b57), to(#384257));
+  background: linear-gradient(0deg, #3a3b57, #384257);
+}
+
+body main .continuation-container-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .continuation-container-icon:nth-child(2) {
+  margin-top: 30px;
+}
+
+body main .continuation-container-icon:nth-child(3) {
+  margin-top: 30px;
+}
+
+body main .continuation-container-icon .album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body main .continuation-container-icon .album .pic-Againts {
+  width: 60px;
+  height: 60px;
+  background-image: url(../icon/Layer_944.png);
+  margin-right: 9px;
+}
+
+body main .continuation-container-icon .album .pic-Kometa {
+  width: 60px;
+  height: 60px;
+  background-image: url(../icon/Layer_6_copy_3.png);
+  margin-right: 9px;
+}
+
+body main .continuation-container-icon .album .pic-Señorita {
+  width: 60px;
+  height: 60px;
+  background-image: url(../icon/Layer_7_copy_2.png);
+  margin-right: 9px;
+}
+
+body main .continuation-container-icon .album h3 {
+  font-size: 24px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .continuation-container-icon .album .Señorita {
+  text-transform: unset;
+}
+
+body main .continuation-container-icon .album h4 {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: #aaaaaa;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body main .continuation-container-icon .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .continuation-container-icon .star img {
+  width: 20px;
+  height: 20px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+body main .continuation-container-icon .star p {
+  font-size: 18px;
+  font-family: "Bebas Neue";
+  color: white;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
